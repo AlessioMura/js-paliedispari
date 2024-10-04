@@ -9,7 +9,7 @@ user_word = prompt('Inserisci quì la parola');
 
 // Elaborazione
 function word_check(user_word) {
-    let user_word = user_word.toLowerCase().replace();
+    user_word = user_word.toLowerCase().replace();
     if (user_word === user_word.split("").reverse().join("")) {
         alert('Your word is a palindrome');
     } else {
